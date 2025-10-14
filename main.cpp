@@ -33,16 +33,37 @@
 
 // ------------- CODE -------------
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 // Function prototypes (if any)
 
+// Use make 
+// make all test clean
 
 // Main function
 // https://en.cppreference.com/w/cpp/language/main_function.html
 int main() {
-  cout << "Hello, World!" << endl;
+  string s1 = "";
+  string s2 = "";
+
+  cout << "Welcome to the Phrases and Subphrases program!" << endl;
+
+  cout << "Enter Phrase 1: ";
+  getline(cin, s1); // Reads whole line including spaces
+  cout << "You entered: " << s1 << endl;
+
+  cout << "Enter Phrase 2: ";
+  getline(cin, s2); // Reads whole line including spaces
+  cout << "You entered: " << s2 << endl;
+
+  cout << "~~~~~~~~~~~~~TODO: TEST 1 found in 2 and 2 found in 1~~~~~~~~~~~" << endl;
+  cout << "~~~truck is found in firetruck is here" << endl;
+  cout << "~~~truck is here" << endl;
+
+  cout << "Thank you for using my program!" << endl;
+
   return 0;
 }
 

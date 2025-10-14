@@ -9,7 +9,8 @@
         "ms-vscode.cmake-tools",
         "GitHub.copilot",
         "GitHub.copilot-chat",
-        "liximomo.remotefs"
+        "liximomo.remotefs",
+        "ms-vscode.makefile-tools"
       ]
     }
   }

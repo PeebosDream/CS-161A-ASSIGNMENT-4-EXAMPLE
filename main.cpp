@@ -39,8 +39,11 @@ using namespace std;
 
 // Function prototypes (if any)
 
-// Use make 
+// Use make to automate testing
 // make all test clean
+
+// g++ command run interactively
+// g++ main.cpp && ./a.out && rm ./a.out
 
 // Main function
 // https://en.cppreference.com/w/cpp/language/main_function.html
